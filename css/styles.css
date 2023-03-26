@@ -68,19 +68,22 @@ button {
   margin: 0 auto;
 }
 
-.logo-link {
-  margin-right: 76px;
+.header {
+  border-bottom: 1px solid var(--accent);
 }
 
 .cont-nav {
   display: flex;
-  border-bottom: 1px solid var(--accent);
 }
 
 .cont-nav nav,
 .cont-nav address {
   display: flex;
   align-items: center;
+}
+
+.logo-link {
+  margin-right: 76px;
 }
 
 .menu {
@@ -104,19 +107,7 @@ button {
   margin-left: auto;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.content {
-  display: block;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
-}
-
-.second-section-cont {
+.second-section {
   padding-top: 120px;
 }
 
@@ -132,12 +123,22 @@ button {
   margin-bottom: 8px;
 }
 
+.third-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .third-section-list {
   display: flex;
 }
 
 .third-section-list li:not(:last-child) {
   margin-right: 24px;
+}
+
+.fourth-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .fourth-section-list {
@@ -159,18 +160,20 @@ button {
 }
 
 .footer-content {
-  padding-top: 101.5px;
-  padding-bottom: 100px;
   width: 294px;
 }
 
 /* portfolio wrappers */
 
-.prtf-list {
+.prtfl-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.prtfl-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .prtfl-button:not(:last-child) {
@@ -193,10 +196,6 @@ button {
 
 .net li:nth-last-child(-n + 3) {
   margin-bottom: 0;
-}
-
-.prtfl-container {
-  padding-bottom: 120px;
 }
 
 .prtfl-menu {
@@ -269,6 +268,10 @@ button {
 /* ============== main(index.html) ================ */
 
 .hero-section {
+  display: block;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
   background-color: var(--dark);
 }
 
@@ -367,10 +370,13 @@ button {
 /* ============ footer =========== */
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   background-color: var(--dark);
 }
 .footer-title {
-  padding-top: 17.5px;
+  margin-top: 16px;
   color: var(--light);
 }
 
